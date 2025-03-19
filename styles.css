@@ -1,112 +1,69 @@
-/* Opšti stilovi */
 body {
+    background-color: #1e1e1e;
+    color: white;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #0a0a0a;
-    color: white;
 }
 
-/* Navigacija */
 header {
-    background: #111;
-    padding: 15px 0;
-    text-align: center;
+    background-color: #111;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-nav h1 {
-    color: #6ab4ff;
-    margin: 0;
+.logo {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 nav ul {
     list-style: none;
-    padding: 0;
+    display: flex;
+    gap: 15px;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    cursor: pointer;
 }
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-/* Glavni banner */
-.banner {
-    background: linear-gradient(to bottom, #0033cc, #0055ff);
-    padding: 20px;
+.intro {
     text-align: center;
+    padding: 50px;
 }
 
-.info-box {
-    background: #1a662a;
+.status {
+    background-color: #0d1a2d;
     padding: 10px;
-    margin: 10px auto;
-    width: 50%;
-    text-align: center;
+    display: inline-block;
+    margin: 10px 0;
 }
 
-/* Download sekcija */
-.download-section {
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.features {
+    text-align: center;
+    padding: 40px;
+}
+
+.cards {
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 50px;
-    background: #0055ff;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
-.text-content {
-    width: 50%;
-    text-align: left;
-}
-
-.highlight {
-    color: #6ab4ff;
-    font-weight: bold;
-}
-
-.buttons {
-    margin-top: 20px;
-}
-
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 5px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.download {
-    background: #007bff;
-    color: white;
-}
-
-.specs {
-    background: #222;
-    color: white;
-}
-
-/* Slika */
-.image-content img {
-    width: 100%;
-    max-width: 400px;
-    border-radius: 5px;
-}
-
-/* Reklama */
-.advertisement {
-    text-align: center;
+.card {
+    background-color: #222;
     padding: 20px;
-    background: #111;
+    width: 250px;
+    border-radius: 5px;
 }
-
-.advertisement img {
-    width: 80%;
-    max-width: 600px;
-}
-
