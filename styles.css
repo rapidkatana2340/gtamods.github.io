@@ -1,1 +1,112 @@
+/* Opšti stilovi */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #0a0a0a;
+    color: white;
+}
+
+/* Navigacija */
+header {
+    background: #111;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav h1 {
+    color: #6ab4ff;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Glavni banner */
+.banner {
+    background: linear-gradient(to bottom, #0033cc, #0055ff);
+    padding: 20px;
+    text-align: center;
+}
+
+.info-box {
+    background: #1a662a;
+    padding: 10px;
+    margin: 10px auto;
+    width: 50%;
+    text-align: center;
+}
+
+/* Download sekcija */
+.download-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background: #0055ff;
+}
+
+.text-content {
+    width: 50%;
+    text-align: left;
+}
+
+.highlight {
+    color: #6ab4ff;
+    font-weight: bold;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.download {
+    background: #007bff;
+    color: white;
+}
+
+.specs {
+    background: #222;
+    color: white;
+}
+
+/* Slika */
+.image-content img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+}
+
+/* Reklama */
+.advertisement {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+}
+
+.advertisement img {
+    width: 80%;
+    max-width: 600px;
+}
 
